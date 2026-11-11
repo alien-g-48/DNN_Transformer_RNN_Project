@@ -1,0 +1,84 @@
+{
+  "generator": "passed",
+  "library_model_shapes": "passed",
+  "cells": {
+    "RNN": {
+      "status": "passed",
+      "sequence_max_abs_errors": [
+        1.1920928955078125e-07,
+        1.1920928955078125e-07
+      ],
+      "tolerance": 1e-05,
+      "test_seeds": [
+        123,
+        321
+      ],
+      "batch": 4,
+      "time": 9,
+      "input": 9,
+      "hidden": 48
+    },
+    "LSTM": {
+      "status": "passed",
+      "sequence_max_abs_errors": [
+        8.940696716308594e-08,
+        8.940696716308594e-08
+      ],
+      "tolerance": 1e-05,
+      "test_seeds": [
+        123,
+        321
+      ],
+      "batch": 4,
+      "time": 9,
+      "input": 9,
+      "hidden": 48
+    },
+    "GRU": {
+      "status": "passed",
+      "sequence_max_abs_errors": [
+        2.384185791015625e-07,
+        2.384185791015625e-07
+      ],
+      "tolerance": 1e-05,
+      "test_seeds": [
+        123,
+        321
+      ],
+      "batch": 4,
+      "time": 9,
+      "input": 9,
+      "hidden": 48
+    }
+  },
+  "parameter_counts": {
+    "RNN": {
+      "one_bias_cell": 2784,
+      "two_bias_cell": 2832,
+      "har_classifier": 3126,
+      "adding_model": 2545
+    },
+    "LSTM": {
+      "one_bias_cell": 11136,
+      "two_bias_cell": 11328,
+      "har_classifier": 11622,
+      "adding_model": 10033
+    },
+    "GRU": {
+      "one_bias_cell": 8352,
+      "two_bias_cell": 8496,
+      "har_classifier": 8790,
+      "adding_model": 7537
+    }
+  },
+  "hidden_gradient_check": {
+    "RNN": "framework unroll/library predictions agree; 10 finite nonnegative h gradients",
+    "LSTM": "framework unroll/library predictions agree; 10 finite nonnegative h gradients",
+    "GRU": "framework unroll/library predictions agree; 10 finite nonnegative h gradients"
+  },
+  "device": "cpu",
+  "torch_version": "2.5.1",
+  "numpy_version": "1.26.4",
+  "cpu_threads": 2,
+  "wall_seconds": 0.02148979203775525
+}

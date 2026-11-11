@@ -1,0 +1,10 @@
+{
+  "position": "learned",
+  "seed": 42,
+  "test_acc": 0.8785205293518833,
+  "macro_f1": 0.8761896057836798,
+  "params": 233190,
+  "sec_per_epoch": 1.4433855831302935,
+  "device": "cpu",
+  "version": "manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu"
+}

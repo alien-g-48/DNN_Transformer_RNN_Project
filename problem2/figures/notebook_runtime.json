@@ -1,0 +1,12 @@
+{
+  "problem": "problem2",
+  "elapsed_seconds": 35.8260670840973,
+  "environment": "local",
+  "reuse_completed_runs": true,
+  "python": "3.10.10",
+  "torch": "2.5.1",
+  "numpy": "1.26.4",
+  "completed_at_unix": 1794362617.297854,
+  "cuda_device_name": null,
+  "scope": "Setup excluded; includes definitions, tests, downloads, experiments, figures and samples. Cached replay is included when reuse is true."
+}

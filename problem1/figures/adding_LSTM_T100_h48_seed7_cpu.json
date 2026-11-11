@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "row": {
+    "problem": "P1",
+    "model": "LSTM",
+    "seed": 7,
+    "seq_len": 100,
+    "params": 10033,
+    "sec_per_epoch": 1.1462290485020883,
+    "notes": "task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128",
+    "test_mse": 0.16945754814147948
+  },
+  "test": {
+    "loss": 0.16945754814147948
+  },
+  "constant_1_test_mse": 0.16970883309841156,
+  "solved": false,
+  "wall_seconds": 14.507994125015102,
+  "device": "cpu",
+  "torch_version": "2.5.1",
+  "cpu_threads": 2,
+  "precision": "float32",
+  "cache_version": 1
+}

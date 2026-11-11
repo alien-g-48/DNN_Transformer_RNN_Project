@@ -1,0 +1,16 @@
+{
+  "task": "heads",
+  "heads": 8,
+  "causal": true,
+  "seed": 7,
+  "params": 460097,
+  "val_loss_nats": 2.0322515332246414,
+  "bits_per_char": 2.931919208822183,
+  "restored_causal_val_loss_nats": 2.0322515332246414,
+  "training_seconds": 37.108659250312485,
+  "wall_seconds": 38.30337045900524,
+  "device": "mps",
+  "d": 96,
+  "layers": 4,
+  "version": "manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps"
+}

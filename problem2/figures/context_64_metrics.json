@@ -1,0 +1,19 @@
+{
+  "context": 64,
+  "sec_per_step": 0.01620884579606354,
+  "memory_value_MiB": 25.442138671875,
+  "baseline_memory_MiB": 0.0,
+  "memory_increment_MiB": 25.442138671875,
+  "memory_metric": "mps_sampled_current_allocated",
+  "memory_definition": "MPS maximum sampled current allocated tensor memory after synchronized forward/backward checkpoints; not a true peak counter",
+  "batch_size": 8,
+  "repeats": 10,
+  "warmup_steps": 3,
+  "threads": 2,
+  "platform": "darwin",
+  "device": "mps",
+  "d": 96,
+  "layers": 4,
+  "heads": 4,
+  "version": "manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps"
+}

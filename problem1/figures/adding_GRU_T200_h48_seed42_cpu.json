@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "row": {
+    "problem": "P1",
+    "model": "GRU",
+    "seed": 42,
+    "seq_len": 200,
+    "params": 7537,
+    "sec_per_epoch": 2.001559017235801,
+    "notes": "task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128",
+    "test_mse": 0.16457193565368652
+  },
+  "test": {
+    "loss": 0.16457193565368652
+  },
+  "constant_1_test_mse": 0.16794157028198242,
+  "solved": false,
+  "wall_seconds": 25.102742957999,
+  "device": "cpu",
+  "torch_version": "2.5.1",
+  "cpu_threads": 2,
+  "precision": "float32",
+  "cache_version": 1
+}

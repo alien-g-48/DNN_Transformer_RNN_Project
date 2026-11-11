@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "row": {
+    "problem": "P1",
+    "model": "RNN",
+    "seed": 7,
+    "seq_len": 50,
+    "params": 2545,
+    "sec_per_epoch": 0.2301242742493438,
+    "notes": "task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128",
+    "test_mse": 0.17528272056579589
+  },
+  "test": {
+    "loss": 0.17528272056579589
+  },
+  "constant_1_test_mse": 0.17539237439632416,
+  "solved": false,
+  "wall_seconds": 2.9132274999283254,
+  "device": "cpu",
+  "torch_version": "2.5.1",
+  "cpu_threads": 2,
+  "precision": "float32",
+  "cache_version": 1
+}

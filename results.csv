@@ -1,0 +1,93 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+P1,RNN,7,128,0.7186969799796403,0.7071140412085922,,3126,0.28572828113101423,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,128,0.8510349507974211,0.8475670633385599,,11622,0.9564785990078235,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,128,0.8839497794367153,0.8836835502264414,,8790,0.9368856457440415,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,128,0.663047166610112,0.6313828076777129,,3126,0.2910979166335892,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,128,0.8513742789277231,0.8497518930698464,,11622,1.0044140522513771,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,128,0.8914149983033594,0.8921652329964452,,8790,0.8776018645148724,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,128,0.5846623685103495,0.5311522727100736,,3126,0.3258363228960661,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,128,0.8707159823549372,0.8703317072084462,,11622,0.9558215051220031,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,128,0.8547675602307431,0.8558968947541706,,8790,0.8287801613769261,,,task=HAR;h=48;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,7,50,,,0.17528272056579589,2545,0.2301242742493438,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,50,,,0.17407446098327636,2545,0.2014710798393935,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,50,,,0.1752288475036621,2545,0.20631395824602805,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,50,,,0.17297678565979005,10033,0.645208434240582,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,50,,,0.17355219650268555,10033,0.5861366736547401,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,50,,,0.17400679779052736,10033,0.5559271770083191,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,50,,,0.009369630217552185,7537,0.4952240972779691,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,50,,,0.010735259294509887,7537,0.5765579064318445,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,50,,,0.009232482731342315,7537,0.5005459513243599,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,7,100,,,0.16978665161132814,2545,0.3200924168437875,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,100,,,0.16982421493530273,2545,0.32782828467315994,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,100,,,0.16997693061828614,2545,0.321587368157149,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,100,,,0.16945754814147948,10033,1.1462290485020883,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,100,,,0.16968868446350097,10033,1.133748489752179,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,100,,,0.16982931900024414,10033,1.1597511840712589,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,100,,,0.04504436302185059,7537,1.1551519410859328,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,100,,,0.04031724405288696,7537,1.1179411771784846,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,100,,,0.03702948212623596,7537,1.1123247709086475,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,7,200,,,0.16859018325805664,2545,0.7070832916457827,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,200,,,0.1680552635192871,2545,0.7106999409055182,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,200,,,0.1683202838897705,2545,0.7151229583250824,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,200,,,0.16859203720092775,10033,2.4772348437594096,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,200,,,0.16867166137695314,10033,2.286167444564247,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,200,,,0.16882559776306152,10033,2.2557287046608203,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,200,,,0.1661611785888672,7537,1.962421562571156,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,200,,,0.16867230987548829,7537,1.9553488750825636,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,200,,,0.16457193565368652,7537,2.001559017235801,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,7,400,,,0.15327010536193847,2545,1.275621614671157,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,400,,,0.15452478790283203,2545,1.257378395840836,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,400,,,0.1545664348602295,2545,1.233974909768828,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,400,,,0.15356032180786133,10033,4.5796533992494615,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,400,,,0.15441567707061768,10033,4.582396034597575,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,400,,,0.15345110607147217,10033,4.616621538191491,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,400,,,0.15253368949890136,7537,4.171775295418532,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,400,,,0.1543148822784424,7537,4.185816291690571,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,400,,,0.15296600246429443,7537,4.171464510417233,,,task=adding;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,128,0.6942653545978962,0.6533384412119893,,1830,0.46856632812705357,,,task=hidden_sweep;h=16;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,128,0.7438072616219885,0.7259209888344332,,5702,0.6214736612600973,,,task=hidden_sweep;h=32;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,128,0.8802171700033933,0.8790659577473391,,19590,0.9517007291287882,,,task=hidden_sweep;h=64;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,7,128,0.8452663725822871,0.8417092418123083,,71942,1.6372111876262352,,,task=hidden_sweep;h=128;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,128,0.7675602307431286,0.7534622667058964,,1398,0.4494229532429017,,,task=hidden_sweep;h=16;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,128,0.8262639972853749,0.8201070835476844,,4326,0.5956164008530322,,,task=hidden_sweep;h=32;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,128,0.8764845605700713,0.8760570778928373,,14790,0.8756964478816371,,,task=hidden_sweep;h=64;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,7,128,0.8941296233457754,0.8943845333177723,,54150,1.6156250730127795,,,task=hidden_sweep;h=128;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,128,0.7393959959280625,0.7258642355060311,,1830,0.4729725991055602,,,task=hidden_sweep;h=16;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,128,0.841873091279267,0.8397934586764535,,5702,0.6309302137669874,,,task=hidden_sweep;h=32;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,128,0.829657278588395,0.8303995050418314,,19590,0.9682341611187439,,,task=hidden_sweep;h=64;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,21,128,0.8561248727519511,0.8552351650532178,,71942,1.653249478986254,,,task=hidden_sweep;h=128;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,128,0.7706141839158466,0.7590338230466975,,1398,0.4258042607543757,,,task=hidden_sweep;h=16;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,128,0.8221920597217509,0.8183613974256105,,4326,0.5570240988745354,,,task=hidden_sweep;h=32;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,128,0.9005768578215134,0.9000042511496057,,14790,0.8452890937478514,,,task=hidden_sweep;h=64;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,21,128,0.8931116389548693,0.8918980196450911,,54150,1.4391226770094363,,,task=hidden_sweep;h=128;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,128,0.8045469969460468,0.7993632553072391,,1830,0.46869388001505286,,,task=hidden_sweep;h=16;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,128,0.7980997624703088,0.7984972779895334,,5702,0.6245726302586263,,,task=hidden_sweep;h=32;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,128,0.8622327790973872,0.8606202943299306,,19590,0.9533615676336922,,,task=hidden_sweep;h=64;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,LSTM,42,128,0.8839497794367153,0.8852374860345195,,71942,1.62434890626173,,,task=hidden_sweep;h=128;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,128,0.7743467933491687,0.7674495469473476,,1398,0.42293446375697386,,,task=hidden_sweep;h=16;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,128,0.8696979979640312,0.8703407517534845,,4326,0.5548403959837742,,,task=hidden_sweep;h=32;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,128,0.8761452324397693,0.8755784094922782,,14790,0.8412433388730278,,,task=hidden_sweep;h=64;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,GRU,42,128,0.8629114353579912,0.8618609209572964,,54150,1.4258372031326871,,,task=hidden_sweep;h=128;epochs=8;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,7,200,,,0.16859018325805664,2545,0.5784170278445041,,,task=clipping;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,7,200,,,0.1684443588256836,2545,0.5754299304098822,,,task=clipping;h=48;epochs=12;clip=none;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,200,,,0.1680552635192871,2545,0.5787140589867098,,,task=clipping;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,21,200,,,0.16837191581726074,2545,0.5804204826029794,,,task=clipping;h=48;epochs=12;clip=none;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,200,,,0.1683202838897705,2545,0.5801994236826431,,,task=clipping;h=48;epochs=12;clip=1;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P1,RNN,42,200,,,0.16803748321533202,2545,0.576767041668063,,,task=clipping;h=48;epochs=12;clip=none;lr=0.001;device=cpu;torch=2.5.1;cache=1;batch=128
+P2,Transformer_h4_causal1,7,128,,,,460097,,2.0238329009863385,2.9197736898409152,task=LM;d=96;layers=4;steps=600;batch=32;Adam_lr=0.001;device=mps;final full validation chunks;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,Transformer_h1_causal1,7,128,,,,460097,,1.9862532715142527,2.865557744763092,task=heads;d=96;layers=4;steps=600;batch=32;Adam_lr=0.001;device=mps;final full validation chunks;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,Transformer_h8_causal1,7,128,,,,460097,,2.0322515332246414,2.931919208822183,task=heads;d=96;layers=4;steps=600;batch=32;Adam_lr=0.001;device=mps;final full validation chunks;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,Transformer_h4_causal0,7,128,,,,460097,,0.023200311769267908,0.03347097473660066,task=no_mask;d=96;layers=4;steps=600;batch=32;Adam_lr=0.001;device=mps;final full validation chunks;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,context_benchmark,7,64,,,,460097,,,,task=context;batch=8;d=96;layers=4;heads=4;device=mps;mps_sampled_current_allocated;see context_benchmark.csv;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,context_benchmark,7,128,,,,460097,,,,task=context;batch=8;d=96;layers=4;heads=4;device=mps;mps_sampled_current_allocated;see context_benchmark.csv;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,context_benchmark,7,256,,,,460097,,,,task=context;batch=8;d=96;layers=4;heads=4;device=mps;mps_sampled_current_allocated;see context_benchmark.csv;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,context_benchmark,7,512,,,,460097,,,,task=context;batch=8;d=96;layers=4;heads=4;device=mps;mps_sampled_current_allocated;see context_benchmark.csv;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps
+P2,HARTransformer_none,7,128,0.9297590770274856,0.9300480933236331,,231558,1.3506442447542213,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_sinusoidal,7,128,0.9127926705123854,0.9133225470184931,,231558,1.3579703698778758,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_learned,7,128,0.8958262639972854,0.8965032413115841,,233190,1.3804463437700178,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_none,21,128,0.9233118425517476,0.9242003720957035,,231558,1.4945727344747866,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_sinusoidal,21,128,0.9100780454699695,0.9113519132328752,,231558,1.4766903022537008,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_learned,21,128,0.9104173736002714,0.9095946453780392,,233190,1.5187064842320979,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_none,42,128,0.9151679674244995,0.9145781928808482,,231558,1.4320989688567352,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_sinusoidal,42,128,0.9121140142517815,0.9104479490148673,,231558,1.4490546251035994,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu
+P2,HARTransformer_learned,42,128,0.8785205293518833,0.8761896057836798,,233190,1.4433855831302935,,,task=HAR;patch=8;d=96;layers=2;heads=4;epochs=8;device=cpu;best-validation loss;training-loop timing;version=manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu

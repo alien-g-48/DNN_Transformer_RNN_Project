@@ -1,0 +1,10 @@
+{
+  "position": "sinusoidal",
+  "seed": 42,
+  "test_acc": 0.9121140142517815,
+  "macro_f1": 0.9104479490148673,
+  "params": 231558,
+  "sec_per_epoch": 1.4490546251035994,
+  "device": "cpu",
+  "version": "manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicecpu"
+}

@@ -1,0 +1,53 @@
+Temperature 0.2; top-k 50; exactly 500 newly generated characters
+BUS:
+I the with so the the shall the do the sond the the the sear the the speare
+The the sall the the the stall the she my the sould
+The son the the the speart the sope the sear the the with here spear
+The the the sond the sear the the speart the sond the dis the speare
+The the sope the mare the spear the streath.
+
+
+CORIOLAUS:
+But the the seard the stalll and the marther the speart
+The of the shalll the the the the shealll the sould
+And the marthe the the speare the sond the my sond the the so t
+
+Temperature 0.8; top-k 50; exactly 500 newly generated characters
+BUS:
+For for To my wing the he docce his stearin;
+Oad the but come the gry the to the to flik thou me have
+Annd tis his friet, aren the the the cour with frear
+We for, thou spir is he wolld furm se
+Thall and bout: the writh hererthy leaves thave und
+I he teaxt to shir is the penstalnd
+Wir pof ot the spreakeds frarsce a the fersice.
+Alll I ar heavere heaver, her was the erese,
+That wath back: henar you sin thand sond so trest in to coming?
+: you the drespest sheal he word arr hange is not
+
+And wi
+
+Temperature 1.5; top-k 50; exactly 500 newly generated characters
+Bove you low Men evires tlwos fasl, You arle?
+Yecue'tt cyet, Eend anber!
+EOL ABO?
+
+SAUCUEN:
+
+My.--BUMEO:
+O, f thardy matungels ablty inhis onary rif; reacomth: diachzuy.
+
+WQUMBEETSE:
+sauinThe; hast--nnce are; is kD'lllofs Mjathe wes drove,
+e atheou's disheds-bt astdd? Shave you, hrepeasicmount.
+
+
+LBUCEIGBAESD:
+'Smoy merer.
+Sistall blarme hou butw swatcuth' apll he your ki,
+blpr is. nevamamrlacery Uze, awherers up af Vor You cesourdaj.
+
+CKI&BUIFNGHANDW:
+Loo-WZo serveayn, thard.
+Thy het madgat fur
+

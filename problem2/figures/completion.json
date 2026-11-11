@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "device": "mps",
+  "d": 96,
+  "layers": 4,
+  "LM_steps_each": 600,
+  "seeds": [
+    7,
+    21,
+    42
+  ],
+  "LM_seed": 7,
+  "HAR_device": "cpu",
+  "version": "manual_h48_d96_l4_ctx128_har8_b128_lm600_b32_lr0.001_v2_devicemps"
+}
