@@ -80,5 +80,5 @@
   "torch_version": "2.5.1",
   "numpy_version": "1.26.4",
   "cpu_threads": 2,
-  "wall_seconds": 0.02148979203775525
+  "wall_seconds": 0.020445542060770094
 }

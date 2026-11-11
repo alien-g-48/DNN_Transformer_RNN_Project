@@ -4,7 +4,7 @@
   "processor": "arm",
   "torch_version": "2.5.1",
   "cpu_threads": 2,
-  "run_all_wall_seconds": 1.3175453750882298,
+  "run_all_wall_seconds": 1.197588042006828,
   "training_seconds_sum": 945.5894987195497,
   "run_count": 75,
   "har_epochs": 8,
